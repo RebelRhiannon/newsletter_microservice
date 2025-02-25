@@ -2,6 +2,7 @@
 
 ---
 **Overview**
+
 This microservice allows users to:
 1) Subscribe to a monthly cybersecurity newsletter
 2) Check their subscription status
@@ -56,6 +57,7 @@ To verify:
 
 ---
 **Running the Microservice**
+
 Start the Flask server: Python app.py or (if using Python 3) python3 app.py
 
 By Default: the server will run at http://127.0.0.1:5000/
@@ -98,11 +100,14 @@ To modify the email content, locate this function and update the subject and con
 
 ---
 **TroubleShooting**
-1) Microservice doesn't start
+1) Microservice doesn't start:
+   
    This might be due to missing dependencies. Try running pip install -r requirements.txt
-2) Emails not sending
+2) Emails not sending:
+   
    This might be due to incorrect Mailtrap Credentials. Verify your Mailtrap_user and mailtrap_pass
-3) No response from API
+3) No response from API:
+   
    This could be due to the Flask not running. Ensure python app.py is running.
 
 

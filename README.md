@@ -118,7 +118,7 @@ Example: Checking Subscription Status
 ---
 **UML Sequence Diagram**
 
-<img width="626" alt="Screenshot 2025-02-24 at 6 19 03 PM" src="https://github.com/user-attachments/assets/8490fcbc-5938-4a29-ae11-b65ffd2425c8" />
+<img width="745" alt="Screenshot 2025-02-24 at 6 27 57 PM" src="https://github.com/user-attachments/assets/d4b8b7f3-fc47-4464-a4b2-965eb6a81dd1" />
 
 
 ---

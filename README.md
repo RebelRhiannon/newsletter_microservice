@@ -36,28 +36,19 @@ Use MailTrap (Testing Mode)
 3) Set environment variables:
 
 Mac/Linux 
-(bash/zsh):
-export MAILTRAP_USER="your-mailtrap-username"
-export MAILTRAP_PASS="your-mailtrap-password"
+<img width="343" alt="Screenshot 2025-02-24 at 4 50 33 PM" src="https://github.com/user-attachments/assets/6d2e5947-c656-47e6-be04-3e675c8faa2c" />
+
 
 To verify:
-(You should be able to see your username if it is exported correctly) 
-echo $MAILTRAP_USER 
+<img width="507" alt="Screenshot 2025-02-24 at 4 50 53 PM" src="https://github.com/user-attachments/assets/fba489ed-23dd-4718-9048-02b22b49eda6" />
 
-(You should be able to see your password if it is exported correctly)
-echo $MAILTRAP_PASS
 
 Windows
-(PowerShell):
-$Env:MAILTRAP_USER="your-mailtrap-username"
-$Env:MAILTRAP_PASS="your-mailtrap-password"
+<img width="328" alt="Screenshot 2025-02-24 at 4 51 23 PM" src="https://github.com/user-attachments/assets/4fd1130f-fa18-4b73-a12b-b5546e85fbe4" />
+
 
 To verify:
-(You should be able to see your username if it is exported correctly) 
-Get-ChildItem Env:MAILTRAP_USER
-
-(You should be able to see your password if it is exported correctly)
-Get-ChildItem Env:MAILTRAP_PASS
+<img width="522" alt="Screenshot 2025-02-24 at 4 51 35 PM" src="https://github.com/user-attachments/assets/b7e5afcf-6833-4d85-8cfa-e9a75b06ee0d" />
 
 ---
 **Running the Microservice**
@@ -69,63 +60,23 @@ By Default: the server will run at http://127.0.0.1:5000/
 **API Endpoints and Usage**
 1) Subscribe to Newsletter
    Endpoint: POST/subscribe
-   Request Example: 
-    {
-      "email": "testuser@example.com"
-    }
-   Response Example:
-    {
-      "status": "success",
-      "message": "You have successfully subscribed to the monthly newsletter."
-    }
-   
+   <img width="561" alt="Screenshot 2025-02-24 at 4 51 52 PM" src="https://github.com/user-attachments/assets/fab6ab6f-d92d-47e5-92ed-24f207ca5669" />
+
 2) Check Subscription Status
    Endpoint: GET /subscription-status?email=
-   Response Example:
-    {
-      "status": "success",
-      "email": "user@example.com",
-      "subscribed": true
-    }
+   <img width="390" alt="Screenshot 2025-02-24 at 4 52 09 PM" src="https://github.com/user-attachments/assets/7dfe474e-c418-4df7-94fc-1e8942e71180" />
    
 3) Update Email Address
    Endpoint: PUT /update-email
-   Request Example:
-    {
-       "old_email": "testuser@example.com",
-       "new_email": "newtestuser@example.com"
-    }
-   Response Example:
-    {
-       "status": "success",
-       "message": "Your email has been updated successfully."
-    }
+   <img width="437" alt="Screenshot 2025-02-24 at 4 52 21 PM" src="https://github.com/user-attachments/assets/f7d07834-f69e-4551-bb6b-74bab418b2b9" />
 
 4) Unsubscribe from Newsletter
    Endpoint: DELETE /unsubscribe
-   Request Example:
-     {
-        "email": "newtestuser@example.com"
-     }
-   Response Example:
-     {
-        "status": "success",
-        "message": "You have been unsubscribed successfully."
-     }
+   <img width="435" alt="Screenshot 2025-02-24 at 4 52 33 PM" src="https://github.com/user-attachments/assets/4e017ca5-ec00-4207-bd08-7c50ab4a1b96" />
 
 5) Send Newsletter to all Subscribers
    Endpoint: POST /send-newsletter
-   Response Example (Success):
-    {
-      "status": "success",
-      "message": "Newsletter sent successfully."
-    }
-   Response Example (Failure):
-    {
-      "status": "error",
-      "message": "Newsletter failed to send to some emails.",
-      "failed_emails": "user3@example.com"
-    }
+   <img width="429" alt="Screenshot 2025-02-24 at 4 52 45 PM" src="https://github.com/user-attachments/assets/84917cd6-4a83-4093-b8dd-44b68389b7fd" />
 
 ---
 **Customizing the Newsletter Content**

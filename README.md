@@ -35,19 +35,23 @@ Use MailTrap (Testing Mode)
 2) Go to Email Testing --> SMTP settings and copy your username and password
 3) Set environment variables:
 
-Mac/Linux 
+Mac/Linux
+
 <img width="343" alt="Screenshot 2025-02-24 at 4 50 33 PM" src="https://github.com/user-attachments/assets/6d2e5947-c656-47e6-be04-3e675c8faa2c" />
 
 
 To verify:
+
 <img width="507" alt="Screenshot 2025-02-24 at 4 50 53 PM" src="https://github.com/user-attachments/assets/fba489ed-23dd-4718-9048-02b22b49eda6" />
 
 
 Windows
+
 <img width="328" alt="Screenshot 2025-02-24 at 4 51 23 PM" src="https://github.com/user-attachments/assets/4fd1130f-fa18-4b73-a12b-b5546e85fbe4" />
 
 
 To verify:
+
 <img width="522" alt="Screenshot 2025-02-24 at 4 51 35 PM" src="https://github.com/user-attachments/assets/b7e5afcf-6833-4d85-8cfa-e9a75b06ee0d" />
 
 ---

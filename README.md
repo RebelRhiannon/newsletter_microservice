@@ -99,6 +99,26 @@ The default newsletter content is set in the send_newletter() function inside ap
 To modify the email content, locate this function and update the subject and content variables. 
 
 ---
+**Requesting Data from the Microservice (communication contract)**
+
+The developer can request data using HTTP methods such as GET, POST, PUT, and Delete. 
+
+Example: Subscribing a User
+
+<img width="682" alt="Screenshot 2025-02-24 at 5 11 47 PM" src="https://github.com/user-attachments/assets/9f665a78-bdc2-4d33-bf36-a0a07531da4b" />
+
+**Receiving Data from the Microservice (Communication Contract)**
+
+Responses are returned in ***JSON format**. Developer must handle JSON parsing. 
+
+Example: Checking Subscription Status
+
+<img width="992" alt="Screenshot 2025-02-24 at 5 14 07 PM" src="https://github.com/user-attachments/assets/4c0126ff-8a0e-4026-8b1c-17ea6fb2ff93" />
+
+---
+***UML Diagram**
+---
+
 **TroubleShooting**
 1) Microservice doesn't start:
    
@@ -109,6 +129,12 @@ To modify the email content, locate this function and update the subject and con
 3) No response from API:
    
    This could be due to the Flask not running. Ensure python app.py is running.
+
+---
+
+
+
+
 
 
 

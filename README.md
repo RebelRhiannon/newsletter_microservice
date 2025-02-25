@@ -89,8 +89,11 @@ By Default: the server will run at http://127.0.0.1:5000/
 
 ---
 **Customizing the Newsletter Content**
-The default newsletter content is set in the send_newletter() function inside app.py 
+
+The default newsletter content is set in the send_newletter() function inside app.py
+
 <img width="672" alt="Screenshot 2025-02-24 at 4 40 40 PM" src="https://github.com/user-attachments/assets/2e8c4b96-31be-429e-b9e7-028f752340e8" />
+
 To modify the email content, locate this function and update the subject and content variables. 
 
 ---

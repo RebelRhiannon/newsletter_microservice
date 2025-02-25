@@ -116,7 +116,11 @@ Example: Checking Subscription Status
 <img width="992" alt="Screenshot 2025-02-24 at 5 14 07 PM" src="https://github.com/user-attachments/assets/4c0126ff-8a0e-4026-8b1c-17ea6fb2ff93" />
 
 ---
-***UML Diagram**
+**UML Sequence Diagram**
+
+<img width="626" alt="Screenshot 2025-02-24 at 6 19 03 PM" src="https://github.com/user-attachments/assets/8490fcbc-5938-4a29-ae11-b65ffd2425c8" />
+
+
 ---
 
 **TroubleShooting**

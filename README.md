@@ -64,22 +64,27 @@ By Default: the server will run at http://127.0.0.1:5000/
 **API Endpoints and Usage**
 1) Subscribe to Newsletter
    Endpoint: POST/subscribe
+   
    <img width="561" alt="Screenshot 2025-02-24 at 4 51 52 PM" src="https://github.com/user-attachments/assets/fab6ab6f-d92d-47e5-92ed-24f207ca5669" />
 
-2) Check Subscription Status
+3) Check Subscription Status
    Endpoint: GET /subscription-status?email=
+   
    <img width="390" alt="Screenshot 2025-02-24 at 4 52 09 PM" src="https://github.com/user-attachments/assets/7dfe474e-c418-4df7-94fc-1e8942e71180" />
    
-3) Update Email Address
+5) Update Email Address
    Endpoint: PUT /update-email
+   
    <img width="437" alt="Screenshot 2025-02-24 at 4 52 21 PM" src="https://github.com/user-attachments/assets/f7d07834-f69e-4551-bb6b-74bab418b2b9" />
 
-4) Unsubscribe from Newsletter
+7) Unsubscribe from Newsletter
    Endpoint: DELETE /unsubscribe
+   
    <img width="435" alt="Screenshot 2025-02-24 at 4 52 33 PM" src="https://github.com/user-attachments/assets/4e017ca5-ec00-4207-bd08-7c50ab4a1b96" />
 
-5) Send Newsletter to all Subscribers
+9) Send Newsletter to all Subscribers
    Endpoint: POST /send-newsletter
+   
    <img width="429" alt="Screenshot 2025-02-24 at 4 52 45 PM" src="https://github.com/user-attachments/assets/84917cd6-4a83-4093-b8dd-44b68389b7fd" />
 
 ---

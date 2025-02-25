@@ -10,8 +10,7 @@ This microservice allows users to:
 4) Unsubscribe from the newsletter
 5) Send the newsletter to all subscribers
 
-It is built with Python (flask) and currently uses **Mailtrap SMTP** for email testing. 
-To send real emails, this must be replaced with Mailgun or another SMTP provider. 
+It is built with Python (flask) and currently uses **Mailtrap SMTP** for email sending. 
 
 ---
 **Setup Instructions**
